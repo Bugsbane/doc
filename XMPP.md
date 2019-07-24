@@ -1,8 +1,8 @@
 # Chat, VoIP and social network with <img src="/images/XMPP_logo.png" width=100>
 
-YunoHost comes installed with an instant messaging server Metronome which implements the [XMPP protocol](https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol).
+YunoHost comes installed with an instant messaging server called Metronome which implements the [XMPP protocol](https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol).
 
-XMPP is an open and extensible protocol which allows to create chatrooms, to share status and data, to give calls in VoIP and videoconferences.
+XMPP is an open and extensible protocol which allows the creation of chatrooms, sharing status updates and data, creating VOIP and videoconference calls.
 
 All applications based on XMPP are compatible with each other : when using an XMPP client, you can interact with anybody who has an XMPP/Jabber account. This protocol is already used by millions of people around the world.
 
@@ -14,7 +14,7 @@ In YunoHost, this identifier simply corresponds to the main email address of a u
 
 ### Connecting to XMPP 
 
-There are several web client built with social network features :
+There are several web clients built with social networking features :
 - [Movim](https://pod.movim.eu)
 - [Libervia/Salut à Toi](http://salut-a-toi.org/).
 
@@ -26,7 +26,7 @@ You can also use a desktop client such as :
 - [Jitsi](http://jitsi.org/) (multiplatform) 
 - [Adium](https://adium.im/) (Mac OS).
 
-... or a mobile client
+... or a mobile client :
 * [Xabber](http://xabber.com) (Android)
 * [Conversations](https://conversations.im/) (Android)
 * [Movim under Android](https://movim.eu)
@@ -36,7 +36,7 @@ Here is an exhaustive list of XMPP clients : https://en.wikipedia.org/wiki/Comp
 
 ### Encrypt conversations with OMEMO
 
-XMPP chats can be encrypted with the help of [OMEMO](https://xmpp.org/extensions/xep-0384.html), for instance using Gajim :
+XMPP chats can be encrypted with the help of [OMEMO](https://xmpp.org/extensions/xep-0384.html), for example by using Gajim :
 * Install `gajim` and the plugin `gajim-omemo`
 * Enable the plugin in `Tools > Plugins`
 * Enable it
@@ -46,7 +46,7 @@ XMPP chats can be encrypted with the help of [OMEMO](https://xmpp.org/extensions
 
 To create a chatroom (multi-user chat) on your YunoHost server, use the identifier `chatroomname@muc.yourdomain.tld`.
 
-For this to workm you need to [add the corresponding `muc.` DNS record](dns_config_fr) in the DNS configuration.
+For this to work you need to [add the corresponding `muc.` DNS record](dns_config_fr) in your DNS configuration.
 
 ### VoIP and visioconferences
 
