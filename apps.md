@@ -29,7 +29,7 @@ This page requires Javascript enabled to display properly :s.
 
     <p>Important: it's the application maintaineur that qualify his application as working, not the YunoHost core team. Install it at your own risks. We won't provide support for it.</p>
 </div>
-<div class="alert alert-info">The packagers will appreciate your remarks. If you install them and find issues, or ideas for improvement, do not hesitate to file issues directly on their repositories project page.</div>
+<div class="alert alert-info">The packagers would appreciate your remarks. If you install a package and find issues, or have ideas for improvement, don't hesitate to file issues directly on the repositories project page.</div>
 
 <div class="app-cards-list" id="app-cards-list"></div>
 
